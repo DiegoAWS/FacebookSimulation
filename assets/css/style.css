@@ -1,0 +1,25 @@
+body {
+  background-color: white; }
+  body .header {
+    height: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-small;
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: #3f5c9a; }
+
+.logo {
+  font-size: xx-large;
+  font-weight: bold; }
+
+#name {
+  width: 100%; }
+
+#pass {
+  width: 100%; }
+
+#iniciar {
+  font-size: small;
+  height: 50%; }
+
+/*# sourceMappingURL=style.css.map */
