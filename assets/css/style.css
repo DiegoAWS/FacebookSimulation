@@ -1,25 +1,75 @@
-body {
+* {
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; }
+
+.bannerTop {
+  width: 100%;
+  height: 75px;
+  background-image: url("/assets/img/banner.png");
+  color: white;
+  display: flex;
+  align-items: center; }
+  .bannerTop .logo {
+    float: inline-start;
+    width: min-content;
+    height: fit-content;
+    margin-left: 10%;
+    font-size: 270%;
+    font-weight: 900; }
+  .bannerTop .inicio {
+    float: inline-end;
+    margin-top: 0.8%;
+    margin-left: 25%;
+    display: flex; }
+    .bannerTop .inicio .pass {
+      margin-left: 10px; }
+      .bannerTop .inicio .pass .olvidado {
+        font-size: smaller;
+        color: #61a0d8; }
+    .bannerTop .inicio label {
+      display: block;
+      font-size: smaller;
+      margin-bottom: 0px; }
+    .bannerTop .inicio input {
+      width: 70%;
+      height: 35%; }
+  .bannerTop .entrar {
+    height: min-content;
+    align-self: center;
+    background-color: #4267b2;
+    color: white;
+    font-weight: 700;
+    border: 1px solid #29487d; }
+
+.body {
+  height: 1000px;
+  width: 100%;
   background-color: white; }
-  body .header {
-    height: 80px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: x-small;
-    padding-top: 0;
-    padding-bottom: 0;
-    background-color: #3f5c9a; }
+  .body .panelLeft {
+    float: left; }
+    .body .panelLeft .contenido {
+      margin: 2%;
+      float: right;
+      width: min-content; }
+      .body .panelLeft .contenido p {
+        color: #0e385f;
+        font-size: 130%;
+        font-weight: 600; }
+  .body .panelRight {
+    float: right;
+    width: 50%;
+    height: 100%;
+    padding: 5%; }
+    .body .panelRight .form h1, .body .panelRight .form h4 {
+      font-weight: 900;
+      background-color: gold; }
+    .body .panelRight .form .nombres {
+      display: flex;
+      align-content: space-around; }
 
-.logo {
-  font-size: xx-large;
-  font-weight: bold; }
-
-#name {
-  width: 100%; }
-
-#pass {
-  width: 100%; }
-
-#iniciar {
-  font-size: small;
-  height: 50%; }
+.footer {
+  height: 200px;
+  width: 100%;
+  background-color: red; }
 
 /*# sourceMappingURL=style.css.map */
